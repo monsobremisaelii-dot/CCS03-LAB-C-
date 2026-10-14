@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int main ()
+{
+    float num1, num2, num3;
+
+    //input
+
+    printf("Enter Number 1: ");
+    scanf("%f",&num1);
+
+    printf("Enter Number 2: ");
+    scanf("%f",&num2);
+
+    printf("Enter Number 3: ");
+    scanf("%f",&num3);
+
+    //process and Output
+
+    if (num1 > num2 && num1 > num3)
+     
+    {
+
+    printf("Maximum Number = %.2f",num1);
+
+    }
+
+    else if (num2 > num1 && num2 > num3)
+
+    {
+
+    printf("Maximum Number = %.2f",num2);
+
+    }
+    
+    else 
+
+    {
+
+    printf("Maximum Number = %.2f",num3);
+
+    }
+    
+    return 0;
+
+}
