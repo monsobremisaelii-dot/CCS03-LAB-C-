@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+
+    float Number;
+
+    //Input
+
+    printf("Enter a number: ");
+    scanf("%f",&Number);
+
+    //Process and Output
+
+    if (Number == 0)
+    {
+        printf("The Number is zero.\n");
+    }
+    else if (Number > 0)
+    {
+        printf("The Number is Positive.\n");
+    }
+    else
+    {
+        printf("The Number is Negative.\n");
+    }
+
+    return 0;
+}
