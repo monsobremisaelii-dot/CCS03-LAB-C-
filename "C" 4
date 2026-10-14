@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    float Side, Area;
+
+    //Input
+
+    printf("Enter Side Length: ");
+    scanf("%f",&Side);
+
+    //Process
+
+    Area = Side * Side;
+
+    //Output
+
+    printf("Area = %.2f",Area);
+
+    return 0;
+    
+}
